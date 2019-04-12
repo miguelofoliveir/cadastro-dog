@@ -7,7 +7,7 @@ ou baixar diretamente pelo botão download zip do link abaixo:
 https://github.com/miguelofoliveir/cadastro-dog
 
 Rodando o Projeto:
-Basta executar o arquivo index.html que está dentro do projeto.
+Basta executar o arquivo exercicio.html que está dentro do projeto.
 
 Projeto de cadastro de cães
 
