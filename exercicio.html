@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Enext - Dog</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/toastr.min.css">
+     <!-- Required meta tags -->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Anton|Coiny|Indie+Flower|Lobster|Pacifico" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="padding-zero col-12">
+        <h2 class="titulo-enunciado">Cadastro de cachorro</h2>
+    </nav>	
+    <main>
+        <div class="exercicio container">					
+            <div class="conteudo">  
+                <img id="img-dog" src="">
+                <div id="vitrine" class="vitrine">           
+                </div>                          
+            </div>	
+        </div> 
+    </main>
+    <footer class="enunciado fixed-bottom col-12">  
+            <div class="container">
+                <div class="col-md-2 col-xs-12 float-left">
+                    <input id="nome" type="text" class="form-control" placeholder="Digite o nome do cão" aria-label="Username">
+                </div>
+                <div class="col-md-2 col-xs-12 float-left">
+                    <select id="dogs">
+                        <option disabled selected style="display: none;" value="">Selecione a Raça</option>
+                    </select>   
+                </div>
+                <div class="col-md-2 col-xs-12 float-left">
+                    <select id="selecionar-cor">
+                        <option disabled selected style="display: none;" value="">Selecione a Cor</option>
+                        <option value="green">Verde</option>
+                        <option value="yellow">Amarelo</option>
+                        <option value="red">Vermelho</option>
+                        <option value="blue">Azul</option>
+                        <option value="black">Preto</option>
+                    </select>      
+                </div>
+                <div class="col-md-2 col-xs-12 float-left">
+                    <select id="selecionar-font">
+                        <option disabled selected style="display: none;" value="">Selecione a Fonte</option>
+                        <option value="coiny">Coiny</option>
+                        <option value="anton">Anton</option>
+                        <option value="lobster">Lobster</option>
+                        <option value="pacifico">Pacifico</option>
+                        <option value="indie-flower">Indie flower</option>
+                    </select> 
+                </div>
+                <div class="col-md-4 col-xs-12 float-left">
+                    <a id="bt-salvar">Cadastrar</a>
+                    <a id="bt-excluir-todos">Limpar</a>	
+                </div> 
+            </div> 
+    </footer>
+ 	<script src="js/jquery.min.js"></script>
+     <script src="js/exercicio.js"></script>
+     <script src="js/toastr.min.js"></script>
+</body>
+</html>
